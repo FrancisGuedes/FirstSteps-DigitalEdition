@@ -1,0 +1,16 @@
+@import "_config.scss";
+
+// Pages
+@import './pages/competitionChildPage.scss';
+
+// Components
+@import './components/footer';
+@import './components/header';
+
+// Base
+@import './base/homePage.scss';
+@import './base/competitionHomePage.scss';
+@import './base/eventPage.scss';
+@import './base/contactPage.scss';
+@import './base/fundingPage.scss';
+@import './base/programPage.scss';

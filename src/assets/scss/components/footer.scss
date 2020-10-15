@@ -1,0 +1,229 @@
+@import '../config';
+
+footer {
+    padding: 30px 50px 50px 50px;
+    position: relative;
+    display: block;
+    width: 100%;
+    background: $black;
+    color: $white;
+    height: 90px;
+    justify-content: space-between;
+    font-size: 2.5em;
+    font-weight: 700;
+    
+    
+
+    .wrap {
+        display: block;
+        position: relative;
+        max-width: auto;
+        margin: 0 auto;
+        padding: 0;
+
+        .clearFloat {
+            display: inline-block;
+            width: 100%;
+
+            .left {
+                float: left;
+
+                .copyright {
+                    font-size: 1.2rem;
+                    line-height: normal;
+                    color: $white;
+                }
+
+            }
+    
+            .right {
+                float: right;
+    
+                .footer_nav {
+                    position: absolute;
+                    top: 50%; right: 15px;
+                    @include translateY(-50%);
+                    
+    
+                    ul, ul li {
+                        margin: 0;
+                        padding: 0;
+                        list-style-type: none;
+                        
+                    }
+    
+                    ul {
+                        li {
+                            display: inline-block;
+                            width: auto;
+                            margin: 0 3rem 0 0;
+                            
+    
+                            a {
+                                position: relative;
+                                font-size: 1.2rem;
+                                line-height: normal;
+                                color: #fff;
+                                text-transform: uppercase;
+    
+                                &::after {
+                                    
+                                    position: absolute;
+                                    width: 0;
+                                    height: 1px;
+                                    bottom: -.6rem;
+                                    left: 0;
+                                    background: $darkGrey;
+                                    @include transition(all .4s ease-in-out);
+                                }
+    
+                                &:hover {
+                                    color: $darkGrey;
+                                    text-decoration: none;
+    
+                                    &::after {
+                                        width: 100%;
+                                        @include transition(all .4s ease-in-out);
+                                    }
+    
+                                }
+    
+                            }
+    
+    
+    
+                        }
+                    }
+    
+    
+    
+                }
+    
+                .social_icons {
+                    text-align: right;
+                    top: 10%;
+                    left: 20%;
+                                        
+    
+                    ul, ul li {
+                        margin: 0;
+                        padding: 0;
+                        list-style-type: none;
+                    }
+    
+                    ul {
+                        li {
+                            display: inline-block;
+                            width: auto;
+                            margin: 10px 30px;
+                            font-size: 10px;
+                            padding: 20px 20px;
+                            color: $white;
+                            
+                            @include transition(0.4s); 
+
+                            a {
+                                font-size: 17px;
+                                line-height: normal;
+                                color: $white;
+    
+                                &:hover {
+                                    color: #292929;
+                                    @include transition(0.4s);
+                                }
+    
+                            }
+                        }
+                    }
+    
+                }
+    
+    
+            }
+        }
+        
+        
+
+
+
+
+    }
+
+
+
+
+
+}
+
+header, footer, .footer_nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+@media only screen and (min-width: 1000px){
+
+    .footer .wrap .clearFloat {
+        padding: 30px 50px 50px 50px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+
+        .left {
+            float: none;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto 2rem;
+            
+            .copyright {
+                font-size: 1.6rem;
+                line-height: normal;
+            }
+
+        }
+
+        .right {
+            float: none;
+            width: 100%;
+            text-align: center;
+
+            .footer_nav ul li {
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                flex-direction: row;
+                order: 1;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    @include transition(none);
+                    font-size: 1.4rem;
+                    line-height: normal;
+                    text-align: center;
+
+                    &::after {
+                        display: none;
+                    }
+
+                }
+            }
+
+            .social_icons {
+                text-align: center;
+
+                ul li {
+                    margin: 0;
+                    padding: 2rem 2.5rem 0;
+                }
+
+            }
+
+        }
+
+    }
+   
+
+}

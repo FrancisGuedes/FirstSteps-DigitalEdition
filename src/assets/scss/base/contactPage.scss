@@ -1,0 +1,13 @@
+@import '../config';
+
+.contactPage {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  min-height: 480px;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: end;
+}

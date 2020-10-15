@@ -1,0 +1,22 @@
+@import '../config';
+
+.competitionHomePage {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  min-height: 480px;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: end;
+}
+
+.img_AllStyles {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
+
+}
