@@ -54,7 +54,7 @@ class Header extends Component {
               
               
           </ul>
-          <Button>BOTÃO</Button>
+          <Button>Inscreve-te</Button>
         </nav>
       </header>
    )
