@@ -3,13 +3,14 @@ import React from 'react';
 // Components
 function Program() {
   return (
+    
     <div className="programPage" id='programNavbar_link'>
-      <img className='img_programPage' role='img' src='/images/pages/base/program/Programa background.jpg' alt='Programa' id='programNavbar_link' />
-      <div className='programPage-container'>
-
-        <div className='programLayout-container_0'>
-
-          <div class="innerContainer_0">
+    <img className='img_programPage' role='img' src='/images/pages/base/program/Programa background.jpg' alt='Programa' id='programNavbar_link' />
+      <div className='programPage-containers'>
+      
+        <div className='programLayout-container_left'>
+          
+          <div class="innerContainer_left">
             <div className='innerContainer_header'>
               <div className='innerContainer_header-title'>
                 <h2>19 DE DEZEMBRO</h2>
@@ -97,12 +98,12 @@ function Program() {
               </div>
             </div>
               
-              {/*BUTÃO*/}
+              {/*BOTÃO*/}
           </div>
         </div>
 
-        <div className='programLayout-container_1'>
-        <div class="innerContainer_0">
+        <div className='programLayout-container_right'>
+        <div class="innerContainer_right">
             <div className='innerContainer_header'>
               <div className='innerContainer_header-title'>
                 <h2>20 DE DEZEMBRO</h2>
@@ -190,7 +191,7 @@ function Program() {
               </div>
             </div>
               
-              {/*BUTÃO*/}
+              {/*BOTÃO*/}
           </div>
         </div>
 

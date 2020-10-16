@@ -57,7 +57,7 @@ function App() {
         <Route exact path='/Brandprotection' component={Brandprotection} />
         <Route exact path='/Termsanduse' component={Termsanduse} />
         <Route exact path='/Contactus' component={Contactus} />
-
+      
     </div>
     </Router>
   )
