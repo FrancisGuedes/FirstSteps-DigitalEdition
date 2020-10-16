@@ -1,14 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 // Components
 function Contactus() {
-  return (
-    <div className="container-fluid">
-
-      
-
-    </div>
-  )
+	return <div className='container-fluid'></div>
 }
 
-export default Contactus;
+export default Contactus

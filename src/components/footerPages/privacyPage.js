@@ -1,14 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 // Components
 function Privacy() {
-  return (
-    <div className="container-fluid">
-
-      
-
-    </div>
-  )
+	return <div className='container-fluid'></div>
 }
 
-export default Privacy;
+export default Privacy
