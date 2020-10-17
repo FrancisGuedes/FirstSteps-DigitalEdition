@@ -6,8 +6,8 @@ import Header from "./components/headerComponent/header";
 import Footer from "./components/footerComponent/footer";
 
 import Hero from "./components/sections/hero";
-import Event from "./components/sections/eventPage";
-import CompetitionHome from "./components/sections/competitionHomePage";
+import Event from "./components/sections/event";
+import CompetitionHome from "./components/sections/competition";
 import Program from "./components/sections/programPage";
 import Funding from "./components/sections/fundingPage";
 import Contact from "./components/sections/contactPage";

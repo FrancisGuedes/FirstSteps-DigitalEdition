@@ -8,10 +8,10 @@
 @import './components/header';
 
 // Base
-@import './base/hero.scss';
 @import './base/homePage.scss';
-@import './base/competitionHomePage.scss';
-@import './base/eventPage.scss';
+@import './base/hero.scss';
+@import './base/event.scss';
+@import './base/competition.scss';
 @import './base/contactPage.scss';
 @import './base/fundingPage.scss';
 @import './base/programPage.scss';

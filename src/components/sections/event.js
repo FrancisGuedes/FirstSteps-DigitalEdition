@@ -1,15 +1,8 @@
 import React from "react";
 
-// Components
 function Event() {
 	return (
 		<section className="eventPage" id="eventNavbar_link">
-			<img
-				className="img_eventPage"
-				src="/images/pages/base/event/Evento - Background.jpg"
-				alt="Evento"
-			/>
-
 			<div className="eventpage_content">
 				<div className="eventpage-content-left">
 					<h1 className="innerSectionTitle-initiated">
