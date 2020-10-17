@@ -38,8 +38,7 @@ function Funding() {
 					</div>
 				</div>
 
-				<div className="fundingPage-layout-right"></div>
-				<div className="fundingPage-layout-right_img">
+				<div className="fundingPage-layout-right">
 					<img
 						className="img_fundingExpenses"
 						src="/images/pages/base/funding/Costs-28.png"
