@@ -26,7 +26,7 @@
 
     /** versão desktop */
     
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 850px) {
       
       height: fit-content;
       display: inline-flex;
@@ -37,7 +37,7 @@
         width: 50%;
         
         .funding-left-col-header {
-          margin-top: 15%;
+          margin-top: 12%;
         }
         .funding-left-col-body {
           width: 350px;
@@ -53,19 +53,19 @@
         .img_container {
           img {
             box-shadow: black 2px 3px 10px;
-            width: 350px;
+            width: 320px;
             margin-left: 10%;
             margin-right: 20%;
             margin-top: 20%;
-            margin-bottom: 5%;
+            margin-bottom: 10%;
           }
         }
       }
     }
 
-    /** versão desktop */
+    /** versão mobile */
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 850px) {
     
       padding: 20px;
 
