@@ -15,12 +15,10 @@ function Event() {
 					<h1 className="innerSectionTitle-initiated">
 						"First Steps Digital Edition"
 						<div className="tittleSection">
-							<span className="innerTitle-title_0">
-								O FESTIVAL ONLINE DE HIPHOP DEDICADO À NOVA GERAÇÃO
-							</span>
-							<span className="innerTitle-title_1">
-								DEDICADO À NOVA GERAÇÃO
-							</span>
+							<div className="innerTitle-title_0">
+								O FESTIVAL ONLINE DE HIPHOP
+								<h2 className="innerTitle-title_1">DEDICADO À NOVA GERAÇÃO</h2>
+							</div>
 						</div>
 					</h1>
 					<h2 className="paragraphSection">

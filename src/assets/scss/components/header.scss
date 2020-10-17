@@ -1,20 +1,18 @@
 @import '../config';
 
-header {
-  padding: 40px;
+.header-Navbar {
   position: relative;
   display: flex;
   max-width: 1200px;
-  height: 80px;
   font-style: bold;
   font-size: 1.2rem;
   justify-content: center;
   align-items: center;
-  background-color: #151c34;
+  background-color: transparent;
   
 
   .nav-menu {
-    margin-top: 60px;
+    margin-top: 22px;
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 20px;
