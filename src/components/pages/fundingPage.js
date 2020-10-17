@@ -14,7 +14,8 @@ function Funding() {
 				<div className="fundingPage-layout-left">
 					<div className="fundingPage-layout-leftHeader">
 						<div className="fundingPage-layout-left_title_0">
-							O goal da campanha são<span className="fundrasingValue">1700$</span> para cobrir
+							O goal da campanha são
+							<span className="fundrasingValue">1700$</span> para cobrir
 						</div>
 						<div className="fundingPage-layout-left_title_1">
 							despesas com recursos humanos, materiais e técnicas.
@@ -44,27 +45,18 @@ function Funding() {
 				</div>
 
 				<div className="fundingPage-layout-right"></div>
-					<div className="fundingPage-layout-rightContainer">
-						<div className='rightContainer-inline-title'>
-							<div className='inline-title_0'></div>
-							<div className='inline-title_1'></div>
-							<div className='inline-title_2'></div>
-							<div className='inline-title_3'></div>
-							<div className='inline-title_4'></div>
-						</div>
-						<div className='rightContainer-total'>
-							<div className='rightContainer-total-left'>
-								<div></div>
-								<div></div>
-								<div></div>
-							</div>
-							<div className='rightContainer-total-right'></div>
-								<div></div>
-								<div></div>
-								<div></div>
-						</div>
-					</div>
+				<div className="fundingPage-layout-right_img">
+					<img
+						className="img_fundingExpenses"
+						src="/images/pages/base/funding/Costs-28.png"
+						alt="Despesas do Evento"
+					/>
 				</div>
+				<div className="fundraising_text">
+					<p className="inline-text_0">transparência contigo</p>
+					<p className="inline-text_1">acima de tudo!</p>
+				</div>
+			</div>
 		</div>
 	);
 }

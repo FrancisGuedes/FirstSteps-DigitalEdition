@@ -39,16 +39,11 @@ bold 700 Italic
 
 */
 
-* body {
+* {
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: $black;
   font-weight: 400;
   font-style: normal;
-  
-  background-color: $red;
-  
 }
 
 .navTop_link {

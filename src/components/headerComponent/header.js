@@ -19,8 +19,9 @@ class Header extends Component {
 					className='menu_header_logo'
 					role='img'
 					onClick={() => scroll.scrollToTop()}
-				>
-					LOGO
+				>	
+					<img className='logo_navBar' src='/images/header/logo/Original logo with glow (1).png' alt='First Steps Logo' />
+					
 				</div>
 				<div className='menu-icon' onClick={this.handleClick}>
 					<i className={this.state.cliked ? 'fa fa-times' : 'fa fa-bars'}></i>
@@ -56,7 +57,7 @@ class Header extends Component {
             </li>
                 */}
 					</ul>
-					<Button>Inscreve-te</Button>
+					
 				</nav>
 			</header>
 		)

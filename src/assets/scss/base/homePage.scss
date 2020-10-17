@@ -1,9 +1,5 @@
 @import '../config';
 
-.main {
-  margin-top: 30px; /* to avoid content overlay */
-}
-
 // Homepage
 
 .homepage_panel {
@@ -16,76 +12,20 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-box-pack: end;
-
-  &::after {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    content: "";
-    pointer-events: none;
-  }
-}
-     
-.homepage_content {
-  justify-content: center;
-  display: flex;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -webkit-box-pack: end;
-  flex-direction: column;
-  min-height: 480px;
-  position: relative;
 }
 
-.homepage_panel_title {
-  background: transparent !important;
-  line-height: 0 !important;
-  color: transparent !important;
-  font-size: 0 !important;
+.img_homePage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
 }
-
-.tittleSection_0 {
-  display: flex;
-  flex-wrap: wrap;
-  width: fit-content;
-  background: transparent;
-  padding: 0;
-  height: auto;
-  line-height: normal !important;
-  margin: 0 !important;
-  font-size: 48px !important;
-  color: $white;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-.tittleSection_1 {
-  display: flex;
-  flex-wrap: wrap;
-  width: fit-content;
-  background: transparent;
-  padding: 0;
-  height: auto;
-  line-height: normal !important;
-  margin: 8px;
-  font-size: 18px !important;
-  color: $white;
-  font-family: sans-serif;
-  font-weight: 400;
-
-}
-
-.innerSection {
-  background-color: $dark_blue;
-  padding: 6px 12px;
-  margin: -6px;
-  width: fit-content;
-  border-radius: 6px;
-
-}
-
 
 // Media
 @media screen and (max-width: 650px) {

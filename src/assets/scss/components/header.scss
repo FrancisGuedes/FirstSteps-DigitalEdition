@@ -1,28 +1,22 @@
 @import '../config';
 
 header {
+  padding: 40px;
   position: relative;
   display: flex;
-  width: 100%;
-  background: $red;
+  max-width: 1200px;
   height: 80px;
+  font-style: bold;
   font-size: 1.2rem;
   justify-content: center;
   align-items: center;
-
-  .menu_header_logo {
-    position: fixed;
-    top: 30px; left: 15px;
-    @include translateY(-50%);
-    z-index: 4;
-    color: $white;
-    cursor: pointer;
-    
-  }
+  background-color: #151c34;
+  
 
   .nav-menu {
+    margin-top: 60px;
     display: grid;
-    grid-template-columns:repeat(5, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 20px;
     list-style: none;
     text-align: none;
@@ -31,6 +25,7 @@ header {
     margin-right: 2rem;
   }
 
+
   .nav-links {
     color: $white;
     text-decoration: none;
@@ -38,7 +33,8 @@ header {
   }
 
   .nav-links:hover {
-    color: $lightGrey;
+    color: $white;
+    opacity: 40%;
     transition: all 0.2s ease-out;
   }
 
@@ -54,7 +50,7 @@ header {
   .nav-links,
   nav ul,
   nav ul li {
-    margin: 0;
+    margin-top: 15px;
     padding: 0;
     z-index: 4;
     text-decoration: none;
@@ -81,10 +77,22 @@ header {
        a {
         font-size: 19px;
         line-height: normal;
-        color: $white;
+        
       }
 
   }
+}
+
+.logo_navBar {
+  position: fixed;
+  height: 120px;
+  width: 120px;
+  top: 60px; left: 20px; right: 30px;
+  @include translateY(-50%);
+  z-index: 4;
+  cursor: pointer;
+ 
+  
 }
 
 // Button

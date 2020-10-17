@@ -4,53 +4,45 @@ import React from "react";
 function Event() {
 	return (
 		<section className="eventPage" id="eventNavbar_link">
-			<div className="event_content">
-				<div className="event_description_text">
-					<div className="description_container">
-						<div className="description_text_body">
-							<p className="description_text_summary">
-								<span>
-									<span className="description_text_summary_inited">
-										<div className="titleSection_0"></div>
-										<div className="titleSection_1"></div>
-										<div className="titleSection_2"></div>
-										<div className="titleSection_3"></div>
-										"From First Steps Porto To First Steps Digital Edition"
-									</span>
-								</span>
-							</p>
-							<div class="description_text_paragraph">
-								<div class="description-text__secondary-paragraphs">
-									<p class="description-text__paragraph">
-										<span>
-											<span class="description-text__text">
-												A Red&nbsp;Bull BC One E-Battle é a maior competição
-												on-line de Breaking do mundo. Pela primeira vez na
-												história do Red&nbsp;Bull BC One, os vencedores da
-												Red&nbsp;Bull BC One E-Battle têm um lugar garantido no
-												line-up da Final Mundial 2021.
-											</span>
-										</span>
-									</p>
-									<p class="description-text__paragraph">
-										<span>
-											<span class="description-text__text">
-												A Red&nbsp;Bull BC One E-Battle dá a qualquer pessoa, em
-												qualquer lugar, a oportunidade de fazer parte da Final
-												Mundial do Red&nbsp;Bull BC One 2021. B-Boys e B-Girls
-												de todo o mundo podem enviar os seus vídeos de breaking
-												em www.redbullbcone.com e participar na batalha online,
-												que será jurada por alguns dos nomes mais credíveis da
-												cena Breaking.ull BC One E-Battle dá a qualquer pessoa,
-												em qualquer lugar, a oportunidade de fazer parte da
-												Final Mundial do Red&nbsp;
-											</span>
-										</span>
-									</p>
-								</div>
-							</div>
+			<img
+				className="img_eventPage"
+				src="/images/pages/base/event/Evento - Background.jpg"
+				alt="Evento"
+			/>
+
+			<div className="eventpage_content">
+				<div className="eventpage-content-left">
+					<h1 className="innerSectionTitle-initiated">
+						"First Steps Digital Edition"
+						<div className="tittleSection">
+							<span className="innerTitle-title_0">
+								O FESTIVAL ONLINE DE HIPHOP DEDICADO À NOVA GERAÇÃO
+							</span>
+							<span className="innerTitle-title_1">
+								DEDICADO À NOVA GERAÇÃO
+							</span>
 						</div>
-					</div>
+					</h1>
+					<h2 className="paragraphSection">
+						<div className="innerSection-paragraph">
+							<p className="innerSection-paragraph_0">
+								Após 7 edições físicas, a First Steps chega às plataformas
+								digitais, para promover
+							</p>
+						</div>
+						<div className="innerSection-paragraph">
+							<p className="innerSection-paragraph_1">
+								competições, formações e conversas online de todas as vertentes
+								desta cultura:
+							</p>
+						</div>
+						<div className="innerSection-paragraph">
+							<p className="innerSection-paragraph_2">
+								Dança (top styles e breaking), graffiti, beatbox, djing /
+								produção e mcing / rap.
+							</p>
+						</div>
+					</h2>
 				</div>
 			</div>
 		</section>

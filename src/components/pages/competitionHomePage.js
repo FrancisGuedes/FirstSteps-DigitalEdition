@@ -7,11 +7,10 @@ function CompetitionHome() {
 		<div className='competitionHomePage'>
 			<img
 				className='img_AllStyles'
-				role='img'
-				src='/images/pages/base/competition/Categories - All.jpg'
-				alt='All Styles'
-				id='competitionHomeNavbar_link'
-				usemap='#allstylesmap'
+				src="/images/pages/base/competition/Categories - All.jpg"
+				alt="All Styles"
+				id="competitionHomeNavbar_link"
+				usemap="#allstylesmap"
 			/>
 
 			<map name='allstylesmap'>
@@ -62,4 +61,4 @@ function CompetitionHome() {
 	)
 }
 
-export default CompetitionHome
+export default CompetitionHome;
