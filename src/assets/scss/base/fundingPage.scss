@@ -1,7 +1,6 @@
 @import '../config';
 
 .fundingPage {
-<<<<<<< HEAD
   display: block;
   height: 1000px;
   width: 100%;
@@ -9,28 +8,4 @@
   .img_fundingExpenses {
     height: 200px;
   }
-=======
-  height: 100vh;
-  justify-content: center;
-  display: flex;
-  position: relative;
-  min-height: 480px;
-  flex-direction: column;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-box-pack: end;
-}
-
-.img_fundingPage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position-x: center;
->>>>>>> e3ae58baa6e66254d48902a7acf73c8aed4fb8cd
 }
