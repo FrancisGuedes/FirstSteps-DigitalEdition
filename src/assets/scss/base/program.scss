@@ -6,8 +6,8 @@
   height: fit-content;
 
   @media screen and (min-width: 850px) {
+    background-size: contain;
     .program--container {
-      background-size: contain;
       display: inline-table;
       width: 50%;
       img {
@@ -19,8 +19,8 @@
   }
 
   @media screen and (max-width: 850px) {
+    background-size: cover;
     .program--container {
-      background-size: cover;
       display: block;
       img {
         width: 95%;
