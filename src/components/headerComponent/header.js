@@ -20,7 +20,7 @@ class Header extends Component {
 					role='img'
 					onClick={() => scroll.scrollToTop()}
 				>	
-					<img className='logo_navBar' src='/images/header/logo/Original logo with glow (1).png' alt='First Steps Logo' />
+					<img className='logo_navBar' src='/images/header/logo/logo_with_glow.png' alt='First Steps Logo' />
 					
 				</div>
 				<div className='menu-icon' onClick={this.handleClick}>

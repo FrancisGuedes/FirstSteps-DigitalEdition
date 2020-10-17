@@ -13,7 +13,7 @@ function Program() {
 			/>
 			<div className="programPage-containers">
 				<div className="programLayout-container_left">
-					<div class="innerContainer_left">
+					<div className="innerContainer_left">
 						<div className="innerContainer_header">
 							<div className="innerContainer_header-title">
 								<h2>19 DE DEZEMBRO</h2>
@@ -25,8 +25,8 @@ function Program() {
 
 						<div className="innerContainer_line"></div>
 
-						<div class="innerContainer_body-Paragraph">
-							<div class="inline-paragraph_Container">
+						<div className="innerContainer_body-Paragraph">
+							<div className="inline-paragraph_Container">
 								<div className="inline-paragraph_textContainer">
 									<span className="inline-paragraph_text">
 										Workshop de Top Styles
@@ -39,7 +39,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Workshop de Breaking
@@ -51,7 +51,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Workshop de Graffiti
@@ -63,7 +63,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Workshop de Beatbox
@@ -75,7 +75,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Workshop de Djing/Produção
@@ -87,7 +87,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Workshop de Mcing/Rap
@@ -99,7 +99,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Debate DLàC - gratuito
@@ -116,7 +116,7 @@ function Program() {
 				</div>
 
 				<div className="programLayout-container_right">
-					<div class="innerContainer_right">
+					<div className="innerContainer_right">
 						<div className="innerContainer_header">
 							<div className="innerContainer_header-title">
 								<h2>20 DE DEZEMBRO</h2>
@@ -128,8 +128,8 @@ function Program() {
 
 						<div className="innerContainer_line"></div>
 
-						<div class="innerContainer_body-Paragraph">
-							<div class="inline-paragraph_Container">
+						<div className="innerContainer_body-Paragraph">
+							<div className="inline-paragraph_Container">
 								<div className="inline-paragraph_textContainer">
 									<span className="inline-paragraph_text">
 										Competição de Top Styles
@@ -142,7 +142,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Competição de Breaking
@@ -154,7 +154,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Competição de Graffiti
@@ -166,7 +166,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Competição de Beatbox
@@ -178,7 +178,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Competição de Djing/Produção
@@ -190,7 +190,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Competição de Mcing/Rap
@@ -202,7 +202,7 @@ function Program() {
 							</div>
 						</div>
 
-						<div class="inline-paragraph_Container">
+						<div className="inline-paragraph_Container">
 							<div className="inline-paragraph_textContainer">
 								<span className="inline-paragraph_text">
 									Entrega de Prémios
