@@ -5,14 +5,14 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "./components/headerComponent/header";
 import Footer from "./components/footerComponent/footer";
 
-import Homepage from "./components/pages/homePage";
-import Event from "./components/pages/eventPage";
-import CompetitionHome from "./components/pages/competitionHomePage";
-import Program from "./components/pages/programPage";
-import Funding from "./components/pages/fundingPage";
-import Contact from "./components/pages/contactPage";
+import Hero from "./components/sections/hero";
+import Event from "./components/sections/eventPage";
+import CompetitionHome from "./components/sections/competitionHomePage";
+import Program from "./components/sections/programPage";
+import Funding from "./components/sections/fundingPage";
+import Contact from "./components/sections/contactPage";
 
-import CompetitionChildPage from "./components/pages/competitionChildPage";
+import CompetitionChildPage from "./components/sections/competitionChildPage";
 
 import Brandprotection from "./components/footerPages/brandProtectionPage";
 import Contactus from "./components/footerPages/contactUsPage";
@@ -29,9 +29,9 @@ function App() {
 			<div className="App">
 				<Header />
 
-				<Route exact path="/Homepage" component={Homepage} />
+				<Route exact path="/Hero" component={Hero} />
 
-				<Homepage />
+				<Hero />
 
 				<Event />
 
