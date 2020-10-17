@@ -3,7 +3,7 @@ import React from "react";
 // Components
 function Contacts() {
 	return (
-		<div className="contactPage"></div>
+		<div id="contactos" className="contactPage"></div>
 	);
 }
 

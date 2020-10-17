@@ -4,7 +4,7 @@ import { Button } from "../headerComponent/button";
 // Components
 function Program() {
 	return (
-		<div className="program" id="programNavbar_link">
+		<div id="programa" className="program">
 			<div className="programPage-containers">
 				<div className="programLayout-container_left">
 					<div className="innerContainer_left">
