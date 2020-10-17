@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom'
 // Components
 function CompetitionHome() {
 	return (
-		<div className='competition'>
-		</div>
+		<div className='competition'></div>
 	)
 }
 	
