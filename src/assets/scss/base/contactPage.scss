@@ -3,12 +3,5 @@
 .contactPage {
   display: block;
   height: 200px;
-}
-
-.img_contactPage {
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position-x: center;
+  background-image: url("/images/pages/base/contact/Contacts background.jpg");
 }

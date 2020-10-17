@@ -8,7 +8,7 @@ import Footer from "./components/footerComponent/footer";
 import Hero from "./components/sections/hero";
 import Event from "./components/sections/event";
 import CompetitionHome from "./components/sections/competition";
-import Program from "./components/sections/programPage";
+import Program from "./components/sections/program";
 import Funding from "./components/sections/fundingPage";
 import Contact from "./components/sections/contactPage";
 

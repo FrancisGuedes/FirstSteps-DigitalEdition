@@ -4,13 +4,7 @@ import { Button } from "../headerComponent/button";
 // Components
 function Program() {
 	return (
-		<div className="programPage" id="programNavbar_link">
-			<img
-				className="img_programPage"
-				src="/images/pages/base/program/Programa background.jpg"
-				alt="Programa"
-				id="programNavbar_link"
-			/>
+		<div className="program" id="programNavbar_link">
 			<div className="programPage-containers">
 				<div className="programLayout-container_left">
 					<div className="innerContainer_left">

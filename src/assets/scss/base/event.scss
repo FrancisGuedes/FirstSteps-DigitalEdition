@@ -2,11 +2,10 @@
 
 .eventPage {
   display: block;
+  height: 100%;
   background-image: url("/images/pages/base/event/Evento - Background.jpg");
 
   .eventpage_content {
-    display: block;
-    height: 200px;
       
     .eventpage-content-left {
       flex: 0 0 auto;
