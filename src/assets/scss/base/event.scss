@@ -11,13 +11,25 @@
         color: $red;
         margin-bottom: 20px;
         font-weight: 700;
-        margin-left: 50px;
+        @media screen and (min-width: 850px) {
+          margin-left: 50px;
+        }
+        @media screen and (max-width: 850px) {
+          width: 80%;
+          margin: auto;
+        }
       }
       .innerSection-paragraph {
         color: $darkBlue;
         font-size: medium;
-        margin-left: 50px;
         line-height: 30px;
+        @media screen and (min-width: 850px) {
+          margin-left: 50px;
+        }
+        @media screen and (max-width: 850px) {
+          width: 80%;
+          margin: auto;
+        }
       }
     }
   }
