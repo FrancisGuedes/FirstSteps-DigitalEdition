@@ -14,11 +14,6 @@ import Contact from "./components/pages/contactPage";
 
 import CompetitionChildPage from "./components/pages/competitionChildPage";
 
-import Brandprotection from "./components/footerPages/brandProtectionPage";
-import Contactus from "./components/footerPages/contactUsPage";
-import Privacy from "./components/footerPages/privacyPage";
-import Termsanduse from "./components/footerPages/termsAndUsePage";
-
 // Includes
 import "./assets/scss/styles.scss";
 import "./assets/css/default.min.css";
@@ -50,11 +45,6 @@ function App() {
 				<Contact />
 
 				<Footer />
-
-				<Route exact path="/Privacy" component={Privacy} />
-				<Route exact path="/Brandprotection" component={Brandprotection} />
-				<Route exact path="/Termsanduse" component={Termsanduse} />
-				<Route exact path="/Contactus" component={Contactus} />
 			</div>
 		</Router>
 	);
