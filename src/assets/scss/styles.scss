@@ -1,17 +1,17 @@
 @import "_config.scss";
 
 // Pages
-@import './pages/competitionChildPage.scss';
+@import './sections/competitionChild.scss';
 
 // Components
 @import './components/footer';
 @import './components/header';
 
 // Base
-@import './base/homePage.scss';
+@import './base/home.scss';
 @import './base/hero.scss';
 @import './base/event.scss';
 @import './base/competition.scss';
-@import './base/contactPage.scss';
-@import './base/fundingPage.scss';
+@import './base/contact.scss';
+@import './base/funding.scss';
 @import './base/program.scss';
