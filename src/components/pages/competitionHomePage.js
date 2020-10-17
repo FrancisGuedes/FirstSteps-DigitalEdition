@@ -10,7 +10,7 @@ function CompetitionHome() {
 				src="/images/pages/base/competition/Categories - All.jpg"
 				alt="All Styles"
 				id="competitionHomeNavbar_link"
-				usemap="#allstylesmap"
+				useMap="#allstylesmap"
 			/>
 
 			<map name='allstylesmap'>
