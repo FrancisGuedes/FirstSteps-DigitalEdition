@@ -6,17 +6,8 @@
   height: fit-content;
 
   @media screen and (min-width: 850px) {
-    background-size: contain;
-    .left_container {
-      display: inline-table;
-      width: 50%;
-      img {
-        display: block;
-        width: 60%;
-        margin: auto;
-      }
-    }
-    .right_container {
+    .program--container {
+      background-size: contain;
       display: inline-table;
       width: 50%;
       img {
@@ -28,19 +19,27 @@
   }
 
   @media screen and (max-width: 850px) {
-    background-size: cover;
-    .left_container {
+    .program--container {
+      background-size: cover;
       display: block;
       img {
         width: 95%;
         margin: auto;
       }
     }
-    .right_container {
-      display: block;
-      img {
-        width: 95%;
-        margin: auto;
+  }
+
+  .program--container {
+    position: relative;
+
+    .program--subscribe {
+
+      .program--subscribeIcon {
+        height: 60px;
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
       }
     }
   }
