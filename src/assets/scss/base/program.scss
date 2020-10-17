@@ -3,9 +3,10 @@
   display: block;
   width: 100%;
   background-image: url("/images/pages/base/funding/Apoios background.jpg");
-  background-size: contain;
   height: fit-content;
+
   @media screen and (min-width: 850px) {
+    background-size: contain;
     .left_container {
       display: inline-table;
       width: 50%;
@@ -27,6 +28,7 @@
   }
 
   @media screen and (max-width: 850px) {
+    background-size: cover;
     .left_container {
       display: block;
       img {
