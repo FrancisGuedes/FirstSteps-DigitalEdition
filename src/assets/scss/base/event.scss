@@ -1,5 +1,3 @@
-@import '../config';
-
 .eventPage {
   display: block;
   height: 100%;
@@ -19,7 +17,6 @@
         text-align: left;
         color: $red;
         font-size: 2.1rem;
-        font-weight: 800;
         line-height: 70px;
         vertical-align: text-top;
         height: 150px;
@@ -33,7 +30,6 @@
         text-align: left;
         color: $red;
         font-size: 2rem;
-        font-weight: 800;
         line-height: normal;
         vertical-align: baseline;
         height: 150px;
@@ -44,7 +40,6 @@
         font-family: 'Montserrat', sans-serif;
         color: $darkBlue;
         line-height: 18px;
-        font-weight: 500;
       }
       
     }
