@@ -14,7 +14,7 @@ class Header extends Component {
 	}
 	render() {
 		return (
-			<header>
+			<div className='header-Navbar' >
 				<div
 					className='menu_header_logo'
 					role='img'
@@ -59,7 +59,7 @@ class Header extends Component {
 					</ul>
 					
 				</nav>
-			</header>
+			</div>
 		)
 	}
 }

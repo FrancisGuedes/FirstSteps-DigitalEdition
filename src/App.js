@@ -1,35 +1,35 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 // Components
-import Header from './components/headerComponent/header'
-import Footer from './components/footerComponent/footer'
+import Header from "./components/headerComponent/header";
+import Footer from "./components/footerComponent/footer";
 
-import Homepage from './components/pages/homePage'
-import Event from './components/pages/eventPage'
-import CompetitionHome from './components/pages/competitionHomePage'
-import Program from './components/pages/programPage'
-import Funding from './components/pages/fundingPage'
-import Contact from './components/pages/contactPage'
+import Homepage from "./components/pages/homePage";
+import Event from "./components/pages/eventPage";
+import CompetitionHome from "./components/pages/competitionHomePage";
+import Program from "./components/pages/programPage";
+import Funding from "./components/pages/fundingPage";
+import Contact from "./components/pages/contactPage";
 
-import CompetitionChildPage from './components/pages/competitionChildPage'
+import CompetitionChildPage from "./components/pages/competitionChildPage";
 
-import Brandprotection from './components/footerPages/brandProtectionPage'
-import Contactus from './components/footerPages/contactUsPage'
-import Privacy from './components/footerPages/privacyPage'
-import Termsanduse from './components/footerPages/termsAndUsePage'
+import Brandprotection from "./components/footerPages/brandProtectionPage";
+import Contactus from "./components/footerPages/contactUsPage";
+import Privacy from "./components/footerPages/privacyPage";
+import Termsanduse from "./components/footerPages/termsAndUsePage";
 
 // Includes
-import './assets/scss/styles.scss'
-import './assets/css/default.min.css'
+import "./assets/scss/styles.scss";
+import "./assets/css/default.min.css";
 
 function App() {
 	return (
 		<Router>
-			<div className='App'>
+			<div className="App">
 				<Header />
 
-				<Route exact path='/Homepage' component={Homepage} />
+				<Route exact path="/Homepage" component={Homepage} />
 
 				<Homepage />
 
@@ -39,7 +39,7 @@ function App() {
 
 				<Route
 					exact
-					path='/CompetitionChildPage'
+					path="/CompetitionChildPage"
 					component={CompetitionChildPage}
 				/>
 
@@ -51,13 +51,13 @@ function App() {
 
 				<Footer />
 
-				<Route exact path='/Privacy' component={Privacy} />
-				<Route exact path='/Brandprotection' component={Brandprotection} />
-				<Route exact path='/Termsanduse' component={Termsanduse} />
-				<Route exact path='/Contactus' component={Contactus} />
+				<Route exact path="/Privacy" component={Privacy} />
+				<Route exact path="/Brandprotection" component={Brandprotection} />
+				<Route exact path="/Termsanduse" component={Termsanduse} />
+				<Route exact path="/Contactus" component={Contactus} />
 			</div>
 		</Router>
-	)
+	);
 }
 
-export default App
+export default App;
