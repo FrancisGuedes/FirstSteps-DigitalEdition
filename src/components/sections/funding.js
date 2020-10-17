@@ -3,21 +3,21 @@ import React from "react";
 // Components
 function Funding() {
 	return (
-		<div className="fundingPage" id="funding_link">
-			<div className="fundingPage-container">
-				<div className="fundingPage-layout-left">
-					<div className="fundingPage-layout-leftHeader">
-						<div className="fundingPage-layout-left_title_0">
+		<div className="funding" id="funding_link">
+			<div className="funding-container">
+				<div className="funding-layout-left">
+					<div className="funding-layout-leftHeader">
+						<div className="funding-layout-left_title_0">
 							O goal da campanha são
 							<span className="fundrasingValue">1700$</span> para cobrir
 						</div>
-						<div className="fundingPage-layout-left_title_1">
+						<div className="funding-layout-left_title_1">
 							despesas com recursos humanos, materiais e técnicas.
 						</div>
 					</div>
 
-					<div className="fundingPage-layout-leftBody">
-						<div className="fundingPage-layout-leftBody-paragraph">
+					<div className="funding-layout-leftBody">
+						<div className="funding-layout-leftBody-paragraph">
 							<span className="inline-paragraghText">
 								No entanto, este orçamento não contempla nenhum valor extra para
 								a nossa associação, que reinveste anualmente os fundos recebidos
@@ -38,7 +38,7 @@ function Funding() {
 					</div>
 				</div>
 
-				<div className="fundingPage-layout-right">
+				<div className="funding-layout-right">
 					<img
 						className="img_fundingExpenses"
 						src="/images/pages/base/funding/Costs-28.png"

@@ -9,7 +9,7 @@ import Hero from "./components/sections/hero";
 import Event from "./components/sections/event";
 import CompetitionHome from "./components/sections/competition";
 import Program from "./components/sections/program";
-import Funding from "./components/sections/fundingPage";
+import Funding from "./components/sections/funding";
 import Contact from "./components/sections/contactPage";
 
 import CompetitionChildPage from "./components/sections/competitionChildPage";
