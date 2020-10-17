@@ -7,16 +7,9 @@
   
   .funding-container {
     
-    height: fit-content;
-    display: inline-flex;
-    
+    /* shared */ 
     .funding-left-col {
-      padding: 50px;
-      display: inline-table;
-      width: 50%;
-      
       .funding-left-col-header {
-        margin-top: 25%;
         color: $darkBlue;
         font-weight: bolder;
         font-size: larger;
@@ -24,41 +17,73 @@
           color: $red;
         }
       }
-      
       .funding-left-col-body {
-        width: 60%;
-        margin-top: 25%;
         color: white;
         font-size: small;
         font-weight: lighter;
+      }
+    }
+
+    /** versão desktop */
+    
+    @media screen and (min-width: 600px) {
+      
+      height: fit-content;
+      display: inline-flex;
+      
+      .funding-left-col {
+        padding: 50px;
+        display: inline-table;
+        width: 50%;
         
-        .raised {
-          margin: auto;
-          text-align: center;
-          margin-top: 10%;
-          margin-bottom: 5%;
+        .funding-left-col-header {
+          margin-top: 15%;
+        }
+        .funding-left-col-body {
+          width: 350px;
+          margin-top: 25%;
           color: white;
         }
       }
-    }
-    
-    
-  }
-  
-  .funding-right-col {
-    
-    display: inline-table;
-    width: 50%;
-    .img_container {
-      img {
-        box-shadow: black 2px 3px 10px;
-        width: 350px;
-        margin-left: 10%;
-        margin-right: 20%;
-        margin-top: 20%;
-        margin-bottom: 5%;
+
+      .funding-right-col {
+        
+        display: inline-table;
+        width: 50%;
+        .img_container {
+          img {
+            box-shadow: black 2px 3px 10px;
+            width: 350px;
+            margin-left: 10%;
+            margin-right: 20%;
+            margin-top: 20%;
+            margin-bottom: 5%;
+          }
+        }
       }
     }
+
+    /** versão desktop */
     
+    @media screen and (max-width: 600px) {
+    
+      padding: 20px;
+
+      .funding-left-col {
+        display: block;
+      }
+
+      .funding-right-col {
+        display: block;
+        .img_container {
+          width: 95%;
+          margin: auto;
+          margin-top: 20px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
 }
