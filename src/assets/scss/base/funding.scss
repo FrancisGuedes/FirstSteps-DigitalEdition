@@ -16,27 +16,33 @@
       width: 50%;
       
       .funding-left-col-header {
-        margin-top: 30%;
+        margin-top: 25%;
         color: $darkBlue;
-        font-weight: 400;
+        font-weight: bolder;
+        font-size: larger;
         .fundraising-value {
           color: $red;
         }
       }
       
       .funding-left-col-body {
-        margin-top: 15%;
+        width: 60%;
+        margin-top: 25%;
         color: white;
         font-size: small;
+        font-weight: lighter;
+        
+        .raised {
+          margin: auto;
+          text-align: center;
+          margin-top: 10%;
+          margin-bottom: 5%;
+          color: white;
+        }
       }
     }
     
-    .raised {
-      margin-left: 10%;
-      margin-top: 10%;
-      margin-bottom: 10%;
-    }
-
+    
   }
   
   .funding-right-col {

@@ -12,9 +12,9 @@ function Funding() {
 
 					<div className="funding-left-col-body">
 						No entanto, este orçamento não contempla nenhum valor extra para a nossa associação, que reinveste anualmente os fundos recebidos na criação de mais eventos para a comunidade. Por isso, queremos reforçar aqui que quaisquer excedentes irão diretamente para o fundo da associação e consequentemente para o futuro e sustentabilidade do evento First Steps.
+						<h3 className="raised">€0 angariados</h3>
 					</div>
 
-					<h3 className="raised">€0 angariados</h3>
 				</div>
 
 				<div className="funding-right-col">
