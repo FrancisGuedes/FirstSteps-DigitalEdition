@@ -14,7 +14,7 @@ class Header extends Component {
 	}
 	render() {
 		return (
-			<div className='header-Navbar' >
+			<div className='header-Navbar'>
 				<div
 					className='menu_header_logo'
 					role='img'

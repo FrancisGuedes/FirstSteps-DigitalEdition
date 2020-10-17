@@ -3,7 +3,7 @@ import React from "react";
 // Components
 function Funding() {
 	return (
-		<div className="funding" id="funding_link">
+		<div id="iniciativa" className="funding">
 			<div className="funding-container">
 				<div className="funding-left-col">
 					<div className="funding-left-col-header">

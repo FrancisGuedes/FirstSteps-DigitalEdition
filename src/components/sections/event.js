@@ -2,7 +2,7 @@ import React from "react";
 
 function Event() {
 	return (
-		<section className="eventPage" id="eventNavbar_link">
+		<section id="evento" className="eventPage">
 			<div className="eventpage_content">
 				<div className="eventpage-content-left">
 					<h1 className="innerSectionTitle-initiated">
