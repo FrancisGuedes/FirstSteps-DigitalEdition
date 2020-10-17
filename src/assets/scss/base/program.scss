@@ -1,8 +1,25 @@
-@import '../config';
-
 .program {
+  padding-top: 40px;
   display: block;
-  height: 100%;
   width: 100%;
   background-image: url("/images/pages/base/program/Programa background.jpg");
+  height: fit-content;
+  .left_container {
+    display: inline-table;
+    width: 50%;
+    img {
+      display: block;
+      width: 60%;
+      margin: auto;
+    }
+  }
+  .right_container {
+    display: inline-table;
+    width: 50%;
+    img {
+      display: block;
+      width: 60%;
+      margin: auto;
+    }
+  }
 }

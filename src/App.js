@@ -23,27 +23,12 @@ function App() {
 		<Router>
 			<div className="App">
 				<Header />
-
-				<Route exact path="/Hero" component={Hero} />
-
 				<Hero />
-
 				<Event />
-
 				<CompetitionHome />
-
-				<Route
-					exact
-					path="/CompetitionChildPage"
-					component={CompetitionChildPage}
-				/>
-
 				<Program />
-
 				<Funding />
-
 				<Contact />
-
 				<Footer />
 			</div>
 		</Router>
