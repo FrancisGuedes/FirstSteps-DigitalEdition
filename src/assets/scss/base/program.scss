@@ -3,19 +3,11 @@
   display: block;
   width: 100%;
   background-image: url("/images/pages/base/funding/Apoios background.jpg");
-  background-size: contain;
   height: fit-content;
+
   @media screen and (min-width: 850px) {
-    .left_container {
-      display: inline-table;
-      width: 50%;
-      img {
-        display: block;
-        width: 60%;
-        margin: auto;
-      }
-    }
-    .right_container {
+    background-size: contain;
+    .program--container {
       display: inline-table;
       width: 50%;
       img {
@@ -27,18 +19,27 @@
   }
 
   @media screen and (max-width: 850px) {
-    .left_container {
+    background-size: cover;
+    .program--container {
       display: block;
       img {
         width: 95%;
         margin: auto;
       }
     }
-    .right_container {
-      display: block;
-      img {
-        width: 95%;
-        margin: auto;
+  }
+
+  .program--container {
+    position: relative;
+
+    .program--subscribe {
+
+      .program--subscribeIcon {
+        height: 60px;
+        position: absolute;
+        bottom: 70px;
+        left: 50%;
+        transform: translateX(-50%);
       }
     }
   }

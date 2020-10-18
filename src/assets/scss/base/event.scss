@@ -1,59 +1,36 @@
-.eventPage {
+.event {
   display: block;
-  height: 100%;
+  height: fit-content;
   background-image: url("/images/pages/base/event/Evento - Background.jpg");
-
+  padding-top: 300px;
+  padding-bottom: 200px;
+  
   .eventpage_content {
-      
     .eventpage-content-left {
-      flex: 0 0 auto;
-      padding: 1.5rem 1rem;
-      -webkit-box-align: start;
-      font-family: 'Montserrat', sans-serif;
-      
-      
       .innerTitle-title_0 {
-        position: absolute;
-        text-align: left;
         color: $red;
-        font-size: 2.1rem;
-        line-height: 70px;
-        vertical-align: text-top;
-        height: 150px;
-        width: max-content;
-        margin-bottom: 20px;        
+        margin-bottom: 20px;
+        font-weight: 700;
+        @media screen and (min-width: 850px) {
+          margin-left: 50px;
+        }
+        @media screen and (max-width: 850px) {
+          width: 80%;
+          margin: auto;
+        }
       }
-      
-      .innerTitle-title_1 {
-        position: absolute;
-        text-align: left;
-        color: $red;
-        font-size: 2rem;
-        line-height: normal;
-        vertical-align: baseline;
-        height: 150px;
-        width: max-content;      
-      }
-      
       .innerSection-paragraph {
-        font-family: 'Montserrat', sans-serif;
         color: $darkBlue;
-        line-height: 18px;
+        font-size: medium;
+        line-height: 30px;
+        @media screen and (min-width: 850px) {
+          margin-left: 50px;
+        }
+        @media screen and (max-width: 850px) {
+          width: 80%;
+          margin: auto;
+        }
       }
-      
     }
-  }
-  
-  
-  .innerSectionTitle-initiated {
-    background: transparent !important;
-    line-height: 0 !important;
-    color: transparent !important;
-    font-size: 0 !important;
-  }
-  
-  .tittleSection {
-    height: 150px;
-    width: max-content;
   }
 }

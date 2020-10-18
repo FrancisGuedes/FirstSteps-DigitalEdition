@@ -10,7 +10,7 @@
   align-items: center;
   background-color: transparent;
   
-
+  
   .nav-menu {
     margin-top: 22px;
     display: grid;
@@ -21,29 +21,30 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+    
+    .nav-links {
+      color: $white;
+      text-decoration: none;
+      padding: 0.5rem 0.5rem;
+      font-weight: 600;
+    }
+
+    .nav-links:hover {
+      color: $white;
+      opacity: 40%;
+      transition: all 0.2s ease-out;
+    }
+    
   }
-
-
-  .nav-links {
-    color: $white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-  }
-
-  .nav-links:hover {
-    color: $white;
-    opacity: 40%;
-    transition: all 0.2s ease-out;
-  }
-
+  
   .fa-bars {
     color: $white;
   }
-
+  
   .menu-icon {
     display: none;
   }
-
+  
   nav,
   .nav-links,
   nav ul,
@@ -53,31 +54,30 @@
     z-index: 4;
     text-decoration: none;
   }
-
+  
   nav {
     position: fixed;
     top: 30px; right: 15px;
     overflow: hidden;
     @include translateY(-50%);
     
-
+    
     ul li {
       list-style-type: none;
       display: inline-block;
       margin-right: 20px;
       vertical-align: baseline;
     }
-
-      &.last {
-        margin: 0;
-      }
-
-       a {
-        font-size: 19px;
-        line-height: normal;
-        
-      }
-
+    
+    &.last {
+      margin: 0;
+    }
+    
+    a {
+      font-size: 16px;
+      line-height: normal;
+    }
+    
   }
 }
 
@@ -89,107 +89,107 @@
   @include translateY(-50%);
   z-index: 4;
   cursor: pointer;
- 
+  
   
 }
 
 // Button
- :root {
-   --primary: $lightGrey;
- }
+:root {
+  --primary: $lightGrey;
+}
 
- .btn {
-   padding: 8px 20px;
-   border-radius: 4px;
-   outline: none;
-   border: none;
-   cursor: pointer;
- }
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
 
- .btn:hover {
-   padding: 8px 20px;
-   transition: all 0.3s ease-out;
-   background: $white;
-   color: $darkGrey;
-   transition: 250ms;
- }
+.btn:hover {
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+  background: $white;
+  color: $darkGrey;
+  transition: 250ms;
+}
 
- .btn--primary {
-   background-color: var(--primary);
- }
+.btn--primary {
+  background-color: var(--primary);
+}
 
- .btn--outline {
-   background-color: transparent;
-   color: $white;
-   padding: 8px 20px;
-   border-radius: 4px;
-   border: 1px solid var(--primary);
-   transition: all 0.3s ease-out;
- }
+.btn--outline {
+  background-color: transparent;
+  color: $white;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
 
- .btn--medium {
+.btn--medium {
   padding: 8px 20px;
   border-radius: 4px;
   font-size: 18px;
   color: $white;
- }
+}
 
- .btn--large {
+.btn--large {
   padding: 12px 26px;
   border-radius: 4px;
   font-size: 20px;
   color: $white;
- }
+}
 
- // Media
+// Media
 
- @media only screen and (max-width:960px) {
-   header {
-     position: relative;
-   }
-
-   .nav-menu {
-     display: flex;
-     flex-direction: column;
-     width: 100%;
-     height: 500px;
-     position: absolute;
-     top: 80px;
-     left: -100%;
-     opacity: 1;
-     transition: all 0.5s ease;
-   }
-
-   .nav-menu.active {
-     background: $black;
-     left: 0;
-     opacity: 1;
-     transition: all 0.5s ease;
-     z-index: 4;
-   }
-
-   .nav-links {
-     text-align: center;
-     padding: 2rem;
-     width: 100%;
-     display: table;
-   }
-
-   .nav-links:hover {
-     background-color: $black;
-     border-radius: 0;
-   }
-
-   .menu_header_logo {
-     position: absolute;
-     top: 0;
-     left: 0;
-     transform: translate(25%, 50%);
-   }
-
-   .fa-times {
-     color: $white;
-     font-size: 2rem;
-   }
-
- }
+@media only screen and (max-width:960px) {
+  header {
+    position: relative;
+  }
+  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  
+  .nav-menu.active {
+    background: $black;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 4;
+  }
+  
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  
+  .nav-links:hover {
+    background-color: $black;
+    border-radius: 0;
+  }
+  
+  .menu_header_logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+  
+  .fa-times {
+    color: $white;
+    font-size: 2rem;
+  }
+  
+}

@@ -1,26 +1,26 @@
 export const MenuItems = [
 	{
-		title: "Evento",
+		title: "EVENTO",
 		url: "#evento",
 		cName: "nav-links"
 	},
 	{
-		title: "Competição",
+		title: "COMPETIÇÃO",
 		url: "#competicao",
 		cName: "nav-links"
 	},
 	{
-		title: "Programa",
+		title: "PROGRAMA",
 		url: "#programa",
 		cName: "nav-links"
 	},
 	{
-		title: "Iniciativa",
+		title: "INICIATIVA",
 		url: "#iniciativa",
 		cName: "nav-links"
 	},
 	{
-		title: "Contactos",
+		title: "CONTACTOS",
 		url: "#contactos",
 		cName: "nav-links"
 	},

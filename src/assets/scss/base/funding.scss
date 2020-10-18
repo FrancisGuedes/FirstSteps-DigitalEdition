@@ -11,10 +11,11 @@
     .funding-left-col {
       .funding-left-col-header {
         color: $darkBlue;
-        font-weight: bolder;
+        font-weight: 700;
         font-size: larger;
         .fundraising-value {
           color: $red;
+          font-weight: 700;
         }
         .brevemente {
           font-size: small;
@@ -23,7 +24,7 @@
       .funding-left-col-body {
         color: white;
         font-size: small;
-        font-weight: lighter;
+        font-weight: 500;
       }
     }
 
@@ -55,7 +56,7 @@
         width: 50%;
         .img_container {
           img {
-            box-shadow: black 2px 3px 10px;
+            box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.5);
             width: 320px;
             margin-left: 10%;
             margin-right: 20%;
