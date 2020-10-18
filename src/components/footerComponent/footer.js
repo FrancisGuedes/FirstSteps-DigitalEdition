@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import { animateScroll as scroll } from "react-scroll";
 
 class Footer extends Component {
@@ -12,8 +11,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<footer>
-				<div className="wrap-container">
-					<div className="container-left">
+				<div className="footer-wrapper">						<div className="container-left">
 						<span className="container-text">Os nossos parceiros</span>
 						<img
 							className="img_partner"

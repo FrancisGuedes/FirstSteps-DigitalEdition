@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function CompetitionHome() {
 	return (
 		<div id="competicao" className="competition">
-			<img src="/images/pages/base/competition/Categories - All.jpg"/>
+			<img src="/images/pages/base/competition/Categories - All.jpg" />
 		</div>
 	)
 }
