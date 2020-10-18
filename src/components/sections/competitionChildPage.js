@@ -13,4 +13,4 @@ function CompetitionChildPage() {
 	)
 }
 
-export default CompetitionChildPage
+export default CompetitionChildPage;
