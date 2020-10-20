@@ -15,20 +15,32 @@ class Footer extends Component {
 						<span className="container-text">Os nossos parceiros</span>
 						<img
 							className="img_partner"
-							src="/images/header/logo/Logo -  Break & top styles.png"
-							alt="First Steps Logo"
+							src="/images/footer/parceiros-46.png"
+							alt="Rimas e Batidas"
 							href=""
 						/>
 						<img
 							className="img_partner"
-							src="/images/header/logo/Logo -  Break & top styles.png"
-							alt="First Steps Logo"
+							src="/images/footer/parceiros-49.png"
+							alt="Portugal Beatbox League"
 							href=""
 						/>
 						<img
 							className="img_partner"
-							src="/images/header/logo/Logo -  Break & top styles.png"
-							alt="First Steps Logo"
+							src="/images/footer/parceiros-48.png"
+							alt="Dance Planet"
+							href=""
+						/>
+						<img
+							className="img_partner"
+							src="/images/footer/parceiros-50.png"
+							alt="Loop"
+							href=""
+						/>
+						<img
+							className="img_partner"
+							src="/images/footer/parceiros-47.png"
+							alt="Triangular 3D"
 							href=""
 						/>
 					</div>
@@ -41,7 +53,7 @@ class Footer extends Component {
 						<span className="container-text">Promovido por</span>
 						<img
 							className="img_logo-right"
-							src="/images/header/logo/Logo -  Break & top styles.png"
+							src="/images/footer/first steps-51.png"
 							alt="First Steps Logo"
 						/>
 					</div>
