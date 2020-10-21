@@ -47,7 +47,7 @@ function Contacts() {
 					</a>
 
 					<a
-						href="mailto:firststepsporto@gmail.com"
+						href="mailto:geral@firststeps.pt"
 						target="_blank"
 						className="contactSocial--link	"
 					>
