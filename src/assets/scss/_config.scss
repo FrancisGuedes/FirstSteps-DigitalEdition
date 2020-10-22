@@ -33,16 +33,7 @@ Mixins
   font-family: 'Montserrat', sans-serif;
 }
 
-.navTop_link {
-  @include transition(0.4s ease-in-out);
-  text-decoration: none;
-  cursor: pointer;
 
-    &:hover {
-      color: $black;
-      @include transition(0.4s ease-in-out) 
-    }
-  }
 
 
 

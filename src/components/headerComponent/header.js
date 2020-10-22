@@ -3,15 +3,14 @@ import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 import { MenuItems } from "./menuItems";
 import { Button } from "../headerComponent/button";
-import { FaBars, FaTimes } from "react-icons/fa";
 
 // Components
 class Header extends Component {
 	state = { clicked: false };
-
 	handleClick = () => {
 		this.setState({ clicked: !this.state.clicked });
 	};
+
 	render() {
 		return (
 			<div className="header-Navbar">
@@ -26,8 +25,9 @@ class Header extends Component {
 						alt="First Steps Logo"
 					/>
 				</div>
+
 				<div className="menu-icon" onClick={this.handleClick}>
-					<i className={this.state.cliked ? "fa fa-times" : "fa fa-bars"}></i>
+					<i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"} />
 				</div>
 
 				<nav>
@@ -36,7 +36,7 @@ class Header extends Component {
 							return (
 								<li key={index}>
 									<a className={item.cName} href={item.url}>
-										{item.title}
+										{item.title} 
 									</a>
 								</li>
 							);
