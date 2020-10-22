@@ -6,15 +6,50 @@
   background-image: url("/images/pages/base/program/Programa background.jpg");
   height: fit-content;
 
+  .program--container {
+    position: relative;
+
+    .program--subscribe {
+      .program--subscribeIcon {
+        height: 60px;
+        position: absolute;
+        bottom: 13%;
+
+        width: fit-content;
+      }
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .program--subscribe {
+      .program--subscribeIcon {
+        left: 18%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    .program--subscribe {
+      .program--subscribeIcon {
+        left: 28%;
+      }
+    }
+  }
+
   @media screen and (min-width: 850px) {
     background-size: contain;
     .program--container {
       display: inline-table;
       width: 50%;
-      img {
+      .image--container {
         display: block;
         width: 60%;
         margin: auto;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
       }
     }
   }
@@ -22,29 +57,57 @@
   @media screen and (max-width: 850px) {
     background-size: cover;
     .program--container {
-      display: block;
-      img {
+      position: relative;
+
+      .image--container {
         width: 95%;
-        margin: auto;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
       }
     }
   }
 
-  .program--container {
-    position: relative;
-
+  // Position link button within image
+  @media screen and (min-width: 850px) {
     .program--subscribe {
-
       .program--subscribeIcon {
-        height: 60px;
-        position: absolute;
-        bottom: 70px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 15%;
       }
     }
   }
 
+  @media screen and (min-width: 1060px) {
+    .program--subscribe {
+      .program--subscribeIcon {
+        left: 21%;
+      }
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .program--subscribe {
+      .program--subscribeIcon {
+        left: 29%;
+      }
+    }
+  }
+  @media screen and (min-width: 1800px) {
+    .program--subscribe {
+      .program--subscribeIcon {
+        left: 34%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 2100px) {
+    .program--subscribe {
+      .program--subscribeIcon {
+        left: 39%;
+      }
+    }
+  }
 }
 
 /* botão
