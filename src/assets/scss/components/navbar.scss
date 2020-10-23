@@ -1,33 +1,43 @@
 @import '../config';
 
-.navbar {
-  font-size: 18px;
-  padding-bottom: 10px;
-  position: fixed;  
+header {
+  position: fixed;
+  width: 100%;
 }
+
+#js-menu,
+.navbar {
+  z-index: 3;
+  float: right;
+}
+
 
 .main-nav {
   list-style-type: none;
   display: none;
-  transform: translate(60%, 0);
 }
 
 .nav-links {
   color: $white;
   padding: 0.5rem 0.5rem;
   font-weight: 600;
+  font-size: 15px;
+  
+  
 }
 
 .nav-links:hover {
   color: $white;
   opacity: 40%;
-  transition: all 0.2s ease-out;
+  
 }
 
 .main-nav li {
   text-align: center;
   margin: 15px auto;
+  font-size: 17px;
 }
+
 
 .logo {
   display: inline-block;
@@ -57,24 +67,30 @@
   display: block;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
+
   .navbar {
       display: flex;
       justify-content: space-between;
       padding-bottom: 0;
       height: 70px;
       align-items: center;
+      top: 400px;
+      
   }
 
+  
   .main-nav {
       display: flex;
       margin-right: 30px;
       flex-direction: row;
       justify-content: flex-end;
+      
   }
 
   .main-nav li {
       margin: 0;
+
   }
 
   .nav-links {

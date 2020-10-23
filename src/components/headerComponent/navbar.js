@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-
+import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
-import { MenuItems } from "./menuItems";
 
 // Components
 class Navbar extends Component {
@@ -21,7 +20,7 @@ class Navbar extends Component {
 		}
 
 		return (
-			<nav class="navbar">
+			<header>
 				<span class="navbar-toggle" id="js-navbar-toggle">
 					<i class="fas fa-bars"></i>
 				</span>
@@ -32,34 +31,61 @@ class Navbar extends Component {
 						alt="First Steps Logo"
 					/>
 				</div>
-				<ul class="main-nav" id="js-menu">
-					<li>
-						<a href="#" class="nav-links">
-							EVENTO
-						</a>
-					</li>
-					<li>
-						<a href="#" class="nav-links">
-							COMPETIÇÃO
-						</a>
-					</li>
-					<li>
-						<a href="#" class="nav-links">
-							PROGRAMA
-						</a>
-					</li>
-					<li>
-						<a href="#" class="nav-links">
-							INICIATIVA
-						</a>
-					</li>
-					<li>
-						<a href="#" class="nav-links">
-							CONTACTOS
-						</a>
-					</li>
-				</ul>
-			</nav>
+				<nav className="navbar">
+					<ul className="main-nav" id="js-menu">
+						<li>
+							<Link
+								to="evento"
+								className="nav-links"
+								smooth={true}
+								duration={1000}
+							>
+								EVENTO
+							</Link>
+						</li>
+						<li>
+							<Link
+								to="competição"
+								className="nav-links"
+								smooth={true}
+								duration={1000}
+							>
+								COMPETIÇÃO
+							</Link>
+						</li>
+						<li>
+							<Link
+								to="programa"
+								className="nav-links"
+								smooth={true}
+								duration={1000}
+							>
+								PROGRAMA
+							</Link>
+						</li>
+						<li>
+							<Link
+								to="iniciativa"
+								className="nav-links"
+								smooth={true}
+								duration={1000}
+							>
+								INICIATIVA
+							</Link>
+						</li>
+						<li>
+							<Link
+								to="contactos"
+								className="nav-links"
+								smooth={true}
+								duration={1000}
+							>
+								CONTACTOS
+							</Link>
+						</li>
+					</ul>
+				</nav>
+			</header>
 		);
 	}
 }
