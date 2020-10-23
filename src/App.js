@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 // Components
-import Header from "./components/headerComponent/header";
+import Navbar from "./components/headerComponent/navbar";
 import Footer from "./components/footerComponent/footer";
 
 import Hero from "./components/sections/hero";
@@ -22,7 +22,7 @@ function App() {
 	return (
 		<Router>
 			<div className="App">
-				<Header />
+				<Navbar />
 				<Hero />
 				<Event />
 				<CompetitionHome />

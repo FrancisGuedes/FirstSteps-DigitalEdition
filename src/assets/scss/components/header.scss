@@ -39,7 +39,9 @@
   
   .fa-bars {
     color: $white;
+    font-size: 1.5rem;    
   }
+
   
   .menu-icon {
     display: block;
@@ -88,10 +90,11 @@
   @include translateY(-50%);
   z-index: 4;
   cursor: pointer;
-  
-  
 }
 
+@media screen and (max-width: 900px) {
+  
+}
 // Button
 /*
 :root {
@@ -143,8 +146,8 @@
 */
 
 // Media
-
-@media only screen and (max-width:900px) {
+/*
+@media screen and (max-width: 900px) {
   
   .nav-menu {
     display: flex;
@@ -194,12 +197,12 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    z-index: 3;
+    z-index: 2;
   }
   
   .fa-times {
     color: $white;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
-}
+}*/
