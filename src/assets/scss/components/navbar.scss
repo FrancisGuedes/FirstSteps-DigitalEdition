@@ -11,6 +11,9 @@ header {
   float: right;
 }
 
+.permalink {
+
+}
 
 .main-nav {
   list-style-type: none;
@@ -22,15 +25,13 @@ header {
   padding: 0.5rem 0.5rem;
   font-weight: 600;
   font-size: 15px;
-  
-  
 }
 
-.nav-links:hover {
+.active, .nav-links:hover {
   color: $white;
-  opacity: 40%;
-  
+  opacity: 50%;
 }
+
 
 .main-nav li {
   text-align: center;
@@ -63,9 +64,7 @@ header {
   font-size: 24px;
 }
 
-.active {
-  display: block;
-}
+
 
 @media screen and (min-width: 900px) {
 

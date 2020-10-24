@@ -17,6 +17,15 @@ class Navbar extends Component {
 			navBarToggle.addEventListener("click", function () {
 				mainNav.classList.toggle("active");
 			});
+
+			// Add, remove Active Class
+			let list = document.querySelectorAll("li");
+			list.forEach((li) => {
+				li.addEventListener("click", function () {
+					list.forEach((btn) => btn.classList.remove("active"));
+					this.classList.add("active");
+				});
+			});
 		}
 
 		return (
