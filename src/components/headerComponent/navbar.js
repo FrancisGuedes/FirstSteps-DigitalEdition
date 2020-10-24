@@ -18,14 +18,16 @@ class Navbar extends Component {
 				mainNav.classList.toggle("active");
 			});
 
-			// Add, remove Active Class
-			let list = document.querySelectorAll("li");
-			list.forEach((li) => {
-				li.addEventListener("click", function () {
-					list.forEach((btn) => btn.classList.remove("active"));
-					this.classList.add("active");
-				});
-			});
+			// Add / remove Active Class
+			let list = document.querySelectorAll('li');
+			list.forEach(li => {
+				li.addEventListener('click', function() {
+					list.forEach(btn => btn.classList.remove('shifting'));
+					this.classList.add('shifting');
+				})
+			})
+
+
 		}
 
 		return (
@@ -42,7 +44,7 @@ class Navbar extends Component {
 				</div>
 				<nav className="navbar">
 					<ul className="main-nav" id="js-menu">
-						<li>
+						<li >
 							<Link
 								to="evento"
 								className="nav-links"
@@ -52,7 +54,7 @@ class Navbar extends Component {
 								EVENTO
 							</Link>
 						</li>
-						<li>
+						<li >
 							<Link
 								to="competição"
 								className="nav-links"
@@ -62,7 +64,7 @@ class Navbar extends Component {
 								COMPETIÇÃO
 							</Link>
 						</li>
-						<li>
+						<li >
 							<Link
 								to="programa"
 								className="nav-links"
@@ -72,7 +74,7 @@ class Navbar extends Component {
 								PROGRAMA
 							</Link>
 						</li>
-						<li>
+						<li >
 							<Link
 								to="iniciativa"
 								className="nav-links"
@@ -82,7 +84,7 @@ class Navbar extends Component {
 								INICIATIVA
 							</Link>
 						</li>
-						<li>
+						<li >
 							<Link
 								to="contactos"
 								className="nav-links"

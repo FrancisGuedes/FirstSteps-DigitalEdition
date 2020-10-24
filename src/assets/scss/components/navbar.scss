@@ -11,10 +11,6 @@ header {
   float: right;
 }
 
-.permalink {
-
-}
-
 .main-nav {
   list-style-type: none;
   display: none;
@@ -27,18 +23,16 @@ header {
   font-size: 15px;
 }
 
-.active, .nav-links:hover {
+.shifting, .nav-links:hover {
   color: $white;
   opacity: 50%;
 }
-
 
 .main-nav li {
   text-align: center;
   margin: 15px auto;
   font-size: 17px;
 }
-
 
 .logo {
   display: inline-block;
@@ -62,9 +56,17 @@ header {
   cursor: pointer;
   color: $white;
   font-size: 24px;
+  
 }
 
+.shifting, .nav-links:hover {
+  color: $white;
+  opacity: 50%;
+}
 
+.active {
+  display: block;
+}
 
 @media screen and (min-width: 900px) {
 
