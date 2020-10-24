@@ -3,4 +3,6 @@
 .program {
   display: block;
   height: 200px;
+  position: relative;
+  z-index: -1;
 }
