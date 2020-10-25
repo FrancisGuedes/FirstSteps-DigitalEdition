@@ -26,7 +26,7 @@ module.exports = [
             },
             {
                 "date": "18:30",
-                "name": "Workshop de Mchg/Rap"
+                "name": "Workshop de Mcing/Rap"
             },
             {
                 "date": "",
@@ -65,7 +65,7 @@ module.exports = [
             },
             {
                 "date": "19:00",
-                "name": "Competição de Mchg/Rap"
+                "name": "Competição de Mcing/Rap"
             },
             {
                 "date": "",
