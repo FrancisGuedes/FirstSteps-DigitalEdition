@@ -51,14 +51,66 @@ header {
 }
 
 .navbar-toggle {
-  position: fixed;
-  top: 10px;
-  right: 20px;
+  position: relative;
+  display: flex;
   cursor: pointer;
   color: $white;
-  font-size: 24px;
-  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $red;
+  transition: all .5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  float: right;
 }
+
+// Burguer icon
+.menu-btn_burguer {
+  width: 27px;
+  height: 3px;
+  border-radius: 4px;
+  background: $white;
+  box-shadow: 0 2px 5px $red;
+  transition: all .5s ease-in-out;  
+}
+.menu-btn_burguer::before,
+.menu-btn_burguer::after {
+  content: '';
+  position: absolute;
+  width: 27px;
+  height: 3px;
+  border-radius: 4px;
+  background: $white;
+  box-shadow: 0 2px 5px $red;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn_burguer::before {
+  transform: translateY(-10px);
+}
+
+.menu-btn_burguer::after {
+  transform: translateY(10px)
+}
+
+// Animation Burguer
+.navbar-toggle.open .menu-btn_burguer {
+  background: transparent;
+  box-shadow: $red;
+}
+
+.navbar-toggle.open .menu-btn_burguer::before {
+  
+  transform: rotate(45deg) 
+}
+
+.navbar-toggle.open .menu-btn_burguer::after {
+  
+  transform: rotate(135deg) 
+}
+
 
 .shifting, .nav-links:hover {
   color: $white;
@@ -69,7 +121,7 @@ header {
   display: block;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
 
   .navbar {
       display: flex;
