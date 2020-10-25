@@ -9,8 +9,6 @@ class Navbar extends Component {
 		this.setState({ clicked: !this.state.clicked });
 	};
 
-	
-
 	render() {
 		window.addEventListener("load", startup);
 		function startup() {
@@ -30,26 +28,22 @@ class Navbar extends Component {
 			});
 
 			// Icon transform into X
-			const menuBtn = document.querySelector('.navbar-toggle');
+			const menuBtn = document.querySelector(".navbar-toggle");
 			let menuOpen = false;
-			menuBtn.addEventListener('click', () => {
-				if(!menuOpen) {
-					menuBtn.classList.add('open');
+			menuBtn.addEventListener("click", () => {
+				if (!menuOpen) {
+					menuBtn.classList.add("open");
 					menuOpen = true;
 				} else {
-					menuBtn.classList.remove('open');
+					menuBtn.classList.remove("open");
 					menuOpen = false;
 				}
 			});
-		}	
-		
+		}
+
 		return (
 			<header>
-				<span
-					class="navbar-toggle"
-					id="js-navbar-toggle"
-					
-				>
+				<span class="navbar-toggle" id="js-navbar-toggle">
 					{/*<i class="fas fa-bars"></i>*/}
 					<div class="menu-btn_burguer"></div>
 				</span>
