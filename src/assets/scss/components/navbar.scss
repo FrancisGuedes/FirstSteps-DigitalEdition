@@ -8,8 +8,9 @@ header {
 
 #js-menu,
 .navbar {
-  z-index: 3;
+  z-index: 1;
   float: right;
+  right: -200px;
 }
 
 .main-nav {
@@ -44,6 +45,7 @@ header {
   font-size: 22px;
   margin-top: 10px;
   margin-left: 20px;
+ 
   
   .logo_navBar {
     height: 120px;
@@ -52,6 +54,7 @@ header {
     @include translateY(-50%);
     z-index: 4;
     cursor: pointer;
+    
   }
 }
 
@@ -69,6 +72,7 @@ header {
   align-items: center;
   margin: 10px;
   float: right;
+ 
   
 }
 
@@ -92,14 +96,17 @@ header {
   background: $white;
   box-shadow: 0 2px 5px $red;
   transition: all .5s ease-in-out;
+  
 }
 
 .menu-btn_burguer::before {
   transform: translateY(-10px);
+  
 }
 
 .menu-btn_burguer::after {
-  transform: translateY(10px)
+  transform: translateY(10px);
+  
 }
 
 // Animation Burguer
@@ -124,11 +131,39 @@ header {
   opacity: 50%;
 }
 
-.active {
-    display: block;
+.nav-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
 }
 
+.active {
+  display: block;
+  background-color: $darkBlue;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
 
+#js-menu.active {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  height: 100%;
+  z-index: -1;
+  
+}
+
+.nav-overlay .active {
+  opacity: 1;
+  visibility: visible;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -173,4 +208,10 @@ header {
   .nav-links:hover {
       color: $white; 
   }
+
+  #js-menu.active {
+    background-color: transparent;
+    box-shadow: none;
+  }
 }
+

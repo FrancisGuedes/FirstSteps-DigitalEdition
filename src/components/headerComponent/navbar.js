@@ -41,6 +41,7 @@ class Navbar extends Component {
 			});
 		}
 
+
 		return (
 			<header>
 				<span class="navbar-toggle" id="js-navbar-toggle">
@@ -54,6 +55,7 @@ class Navbar extends Component {
 					/>
 				</div>
 				<nav className="navbar">
+					<div className="nav-overlay"></div>
 					<ul className="main-nav" id="js-menu">
 						<li>
 							<Link
