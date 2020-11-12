@@ -44,7 +44,6 @@ class Navbar extends Component {
 		return (
 			<header>
 				<span class="navbar-toggle" id="js-navbar-toggle">
-					{/*<i class="fas fa-bars"></i>*/}
 					<div class="menu-btn_burguer"></div>
 				</span>
 				<div className="logo" role="img" onClick={() => scroll.scrollToTop()}>
