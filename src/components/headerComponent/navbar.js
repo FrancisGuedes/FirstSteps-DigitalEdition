@@ -14,8 +14,10 @@ class Navbar extends Component {
 		function startup() {
 			let mainNav = document.getElementById("js-menu");
 			let navBarToggle = document.getElementById("js-navbar-toggle");
+			let navOverlay = document.getElementById("nav-overlay");
 			navBarToggle.addEventListener("click", function () {
 				mainNav.classList.toggle("active");
+				navOverlay.classList.toggle("active");
 			});
 
 			// Add and remove shifting Class
@@ -55,7 +57,7 @@ class Navbar extends Component {
 					/>
 				</div>
 				<nav className="navbar">
-					<div className="nav-overlay"></div>
+					<div id="nav-overlay"></div>
 					<ul className="main-nav" id="js-menu">
 						<li>
 							<Link

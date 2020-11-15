@@ -3,21 +3,20 @@
 header {
   position: fixed;
   width: 100%;
-  
 }
 
 #js-menu,
 .navbar {
   z-index: 1;
-  float: right;
-  right: -200px;
+  float: right;  
 }
+
 
 .main-nav {
   list-style-type: none;
   display: none;
   text-align: center;
-  
+  margin-top: 2px;
 }
 
 .nav-links {
@@ -38,23 +37,21 @@ header {
   text-align: center;
   margin: 15px auto;
   font-size: 17px;
+  
 }
 
 .logo {
   display: inline-block;
-  font-size: 22px;
-  margin-top: 10px;
-  margin-left: 20px;
- 
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 4px;
   
   .logo_navBar {
-    height: 120px;
-    width: 120px;
-    top: 60px; left: 20px; right: 30px;
+    height: 80px;
+    width: 80px;
     @include translateY(-50%);
-    z-index: 4;
+    z-index: 2;
     cursor: pointer;
-    
   }
 }
 
@@ -67,13 +64,11 @@ header {
   height: 40px;
   border-radius: 50%;
   background-color: $red;
-  transition: all .5s ease-in-out;
+  transition: all 50ms ease-in-out;
   justify-content: center;
   align-items: center;
   margin: 10px;
   float: right;
- 
-  
 }
 
 // Burguer icon
@@ -83,9 +78,9 @@ header {
   border-radius: 4px;
   background: $white;
   box-shadow: 0 2px 5px $red;
-  transition: all .5s ease-in-out;  
- 
+  transition: all 50ms ease-in-out;
 }
+
 .menu-btn_burguer::before,
 .menu-btn_burguer::after {
   content: '';
@@ -95,7 +90,7 @@ header {
   border-radius: 4px;
   background: $white;
   box-shadow: 0 2px 5px $red;
-  transition: all .5s ease-in-out;
+  transition: all 50ms ease-in-out;
   
 }
 
@@ -131,7 +126,7 @@ header {
   opacity: 50%;
 }
 
-.nav-overlay {
+#nav-overlay {
   position: fixed;
   top: 0;
   right: 0;
@@ -141,13 +136,14 @@ header {
   backdrop-filter: blur(2px);
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s;
+  transition: opacity 60ms;
 }
 
 .active {
   display: block;
   background-color: $darkBlue;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  
 }
 
 #js-menu.active {
@@ -157,12 +153,13 @@ header {
   width: 200px;
   height: 100%;
   z-index: -1;
-  
+  transition: all 500ms ease-in-out;
 }
 
-.nav-overlay .active {
+#nav-overlay.active {
   opacity: 1;
   visibility: visible;
+  z-index: -1;
 }
 
 
@@ -197,7 +194,18 @@ header {
   }
 
   .logo {
-      margin-top: 10px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 4px;
+    
+    .logo_navBar {
+      height: 100px;
+      width: 100px;
+      @include translateY(-50%);
+      z-index: 2;
+      cursor: pointer;
+    }
   }
 
   .navbar-toggle {
@@ -212,6 +220,10 @@ header {
   #js-menu.active {
     background-color: transparent;
     box-shadow: none;
+  }
+
+  #nav-overlay.active {
+    display: none;
   }
 }
 
