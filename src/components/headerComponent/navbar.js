@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
+import Dropdown from "./dropdown";
 
 // Components
 class Navbar extends Component {
@@ -43,11 +44,10 @@ class Navbar extends Component {
 			});
 		}
 
-
 		return (
 			<header>
 				<span class="navbar-toggle" id="js-navbar-toggle">
-					<div class="menu-btn_burguer"></div>
+					<Link to="/" className="menu-btn_burguer"></Link>
 				</span>
 				<div className="logo" role="img" onClick={() => scroll.scrollToTop()}>
 					<img
@@ -77,7 +77,10 @@ class Navbar extends Component {
 								duration={1000}
 							>
 								COMPETIÇÃO
+								<i className="fas fa-caret-down" />
+								<Dropdown />
 							</Link>
+							
 						</li>
 						<li>
 							<Link

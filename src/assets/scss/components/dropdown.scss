@@ -1,0 +1,109 @@
+@import '../config';
+
+ul {
+  list-style: none;
+}
+
+.dropdown {
+  position: initial;
+  top: initial;
+  right: initial;
+  transform: initial;
+  pointer-events: none;
+  background-color: $blue;
+  display: none;
+}
+
+.dropdown-list {
+  cursor: pointer;
+  margin-top: 200px;
+}
+
+.dropdown-list:hover {
+  transform: scale(1.2);
+  transition: .3s;
+}
+
+.dropdown-link {
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.dropdown-link:hover {
+  color: $white;
+}
+
+.arrow {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 102px;
+  left: 36%;
+  background-color: $blue;
+  transform: scale(1.1) rotate(45deg);
+  transition: .5s;
+  z-index: -100;
+}
+
+.nav-links i {
+  margin-right: 0.4px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  ul {
+    list-style: none;
+  }
+
+  .dropdown {
+    position: absolute;
+    margin-top: 14px;;
+    width: 150px;
+    pointer-events: none;
+    transition: .3s;
+    opacity: 0;
+  }
+
+  .dropdown ul {
+    position: relative;
+    
+  }
+  
+  .dropdown-list {
+    display: flex;
+    background-color: $blue;
+    color: $white;
+    text-decoration: none;
+    padding: 0.3rem 1rem;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    cursor: pointer;
+  }
+
+  .dropdown-list:hover {
+    transform: scale(1.1);
+  }
+
+  .dropdown-link {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .dropdown-link:hover {
+    opacity: 1;
+    color: $white;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: -5.5px;
+    left: 48px;
+    background-color: $blue;
+    transform: rotate(45deg);
+  }
+
+}
