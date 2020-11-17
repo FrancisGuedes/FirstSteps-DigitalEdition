@@ -56,24 +56,19 @@ header {
   }
 }
 
-.nav-links i {
-  margin-right: 0.3px;
-}
 
 .nav-links i {
   font-size: 1.1rem;
   transform: rotate(-90deg);
   transition: .5s;
+  margin-left: 0.4rem;
 }
 
-.nav-links:hover i, .dropdown-link:hover i {
+.nav-links:hover i {
   transform: rotate(360deg);
 }
 
-.dropdown i {
-  font-size: 1rem;
-  transition: .5s;
-}
+
 
 .nav-links:hover > .dropdown, .dropdown-link:hover > .dropdown {
   display: block;
@@ -213,12 +208,7 @@ header {
   .nav-links {
       margin-left: 40px;
   }
-
-  .nav-links i {
-    margin-right: 0.3px;
-  }
-  
-  
+ 
 
   .logo {
     display: inline-block;
@@ -260,6 +250,9 @@ header {
 
   .nav-links i {
     margin-left: 0.4rem;
+    transition: none;
+    transform: none;
   }
+
 }
 
