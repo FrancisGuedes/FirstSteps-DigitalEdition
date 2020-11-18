@@ -10,11 +10,12 @@
   display: none;
   border-radius: 5px;
   padding-bottom:  2px;
-  
+  transition: 3s;  
 }
 
 ul {
   list-style: none;
+  
 }
 
 .dropdown-list {
@@ -23,12 +24,13 @@ ul {
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+  
 }
 
 .dropdown-list:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
   transition: .3s;
-
+  
 }
 
 .dropdown-link {
@@ -39,7 +41,6 @@ ul {
 
 .dropdown-link:hover {
   color: $white;
- 
 }
 
 .arrow {
@@ -50,14 +51,9 @@ ul {
   left: 36%;
   background-color: $blue;
   transform: scale(1.1) rotate(45deg);
-  transition: .5s;
   z-index: -1;
+  
 }
-
-i {
-  margin-right: 0.4px;
-}
-
 
 @media only screen and (min-width: 768px) {
 
