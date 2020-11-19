@@ -180,7 +180,7 @@ header {
 @media only screen and (min-width: 768px) {
 
   .navbar {
-      display: flex;
+      display: block;
       justify-content: space-between;
       padding-bottom: 0;
       height: 70px;
@@ -227,7 +227,7 @@ header {
   .nav-links:hover > .dropdown, .dropdown-link:hover > .dropdown {
     transform: (0, 0);
     opacity: 1;
-    pointer-events: auto;
+    pointer-events: all;
   }
 
   .nav-links:hover {
