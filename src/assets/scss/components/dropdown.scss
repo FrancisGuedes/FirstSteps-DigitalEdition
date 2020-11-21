@@ -6,11 +6,11 @@
   background-color: $blue;
   border-radius: 5px;
   transition: all 0.3s ease;
-  padding-bottom: 2px;
   z-index: 100;
   opacity: 0;
   display: none;
   margin-top: -8px;
+  cursor: pointer;
 }
 
 .dropdown-list {
@@ -18,7 +18,16 @@
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.dropdown-list:hover {
+  background: $blue;
+  border-radius: 5px;
+  transform: scale(1.1);
+  transition: .3s;
 }
 
 .dropdown-link {
@@ -34,7 +43,6 @@
 
 .dropdown-link:hover {
   color: $white;
-  transform: scale(1.2);
   opacity: 50%;
 }
 
@@ -78,7 +86,14 @@ ul {
   align-items: center;
   justify-content: center;
   transition: .3s;
-  
+  cursor: pointer;
+}
+
+.dropdown-list:hover {
+  background: $blue;
+  border-radius: 5px;
+  transform: scale(1.1);
+  transition: .3s;
 }
 
 .dropdown-link {
@@ -95,8 +110,9 @@ ul {
  
 .dropdown-link:hover {
   color: $white;
-  transform: scale(1.2);
   opacity: 50%;
+  transform: scale(1.1);
+  transition: .3s;
 }
 
 .arrow {
