@@ -79,7 +79,7 @@ class Navbar extends Component {
 								COMPETIÇÃO
 								<i className="fas fa-caret-down" />
 							</Link>
-							<Dropdown/>
+							<Dropdown />
 						</li>
 						
 						<li>
